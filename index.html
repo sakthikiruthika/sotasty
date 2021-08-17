@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝒮♡ 𝒯𝒜𝒮𝒯𝒴❣...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+      <h1> 𝒮♡ 𝒯𝒜𝒮𝒯𝒴❣...</h1>
+        <ul>
+            <div class="header">
+        <li class="Home"><a href="index.html">
+            Home</a></li>
+        <li class="Desserts"><a href="Desserts.html">Desserts</a></li>
+        <li class="Icecream"><a href="ice.html">Ice cream</a></li>
+        <li class="Contactus"><a href="Contactus.html">Contact us</a></li>
+            
+        </ul>
+    </div>
+    
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+      
+        <img src="/icecream/raspberry.jfif" width="90%" >
+        
+      
+      </div>
+      
+      <div class="mySlides fade">
+        
+        <img src="https://images5.alphacoders.com/341/thumbbig-341445.webp" width="90%" >
+       
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="https://images6.alphacoders.com/431/thumbbig-431194.webp" width="90%" >
+        
+      </div>
+
+      <div class="mySlides fade">
+        <img src="https://images6.alphacoders.com/421/thumbbig-421085.webp" width="90%" >
+        
+      </div>
+
+      <div class="mySlides fade">
+        <img src="https://images3.alphacoders.com/787/thumbbig-787143.webp" width="90%" >
+        
+      </div>
+      
+      </div>
+
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+  <div class="mail">Give us a feedback
+    <br> Mail us <br>  &#128071;
+    <br>
+<a href="mailto:palanideepa240975@gmail.com">SO TASTY</a>
+
+  </div>
+    </div>
+</body>
+</html>
+
+
+
+
